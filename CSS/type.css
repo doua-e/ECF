@@ -145,6 +145,11 @@ input {
 button:focus {
     outline: none;
 }
+#continertype{
+    display: flex;
+    padding-left: 10%;
+    width: 50%;
+}
 
 
 @media (max-width: 1024px) {
@@ -154,6 +159,7 @@ button:focus {
     input {
         width: 100%;
     }
+   
 }
 
 @media (max-width: 768px) {
