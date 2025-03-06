@@ -1,0 +1,74 @@
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 413px;
+    height: 119px;
+    font-size: 32px;
+    font-weight: bold;
+    font-family: roboto;
+    background-color: rgba(20, 30, 94, 1);
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+   
+}
+
+button:hover {
+    background-color: rgba(20, 30, 94, 0.8);
+}
+
+.fa-plus {
+    margin: 0 10px;
+}
+
+h3 {
+    font-size: 48px;
+    font-weight: bolder;
+    font-family: roboto;
+    color: white;
+}
+
+span {
+    font-size: 32px;
+    font-weight: 500;
+    color: white;
+    font-family: roboto;
+}
+
+.pokeimg {
+    width: 617px;
+    height: 537px;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.pokeimg:hover {
+    transform: scale(1.1);
+}
+
+section {
+    width: 710px;
+    height: 613px;
+    border-radius: 15px;
+    background-color:rgba(44, 59, 158, 0.27);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detaille {
+    width: 900px;
+    height: 1317px;
+    border-radius: 15px;
+    background-color: rgba(47, 62, 156, 0.29);
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 10%;
+    margin-left: 20%;
+    margin-bottom:10% ;
+    padding-bottom: 5%;
+    
+}
+
